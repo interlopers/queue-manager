@@ -1,17 +1,22 @@
 {
-  "name": "car",
-  "base": "PersistedModel",
+  "name": "business",
+  "plural": "businesses",
+  "base": "Model",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "model": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "price": {
-      "type": "number",
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "geopoint",
       "required": true
     }
   },

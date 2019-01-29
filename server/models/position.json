@@ -1,16 +1,21 @@
 {
-  "name": "car",
-  "base": "PersistedModel",
+  "name": "position",
+  "plural": "positions",
+  "base": "Model",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "model": {
-      "type": "string",
+    "current": {
+      "type": "number",
       "required": true
     },
-    "price": {
+    "previous": {
+      "type": "number",
+      "required": true
+    },
+    "taken": {
       "type": "number",
       "required": true
     }

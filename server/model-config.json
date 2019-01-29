@@ -41,5 +41,17 @@
   "car": {
     "dataSource": "db",
     "public": true
+  },
+  "business": {
+    "dataSource": "db",
+    "public": true
+  },
+  "position": {
+    "dataSource": "db",
+    "public": true
+  },
+  "user": {
+    "dataSource": null,
+    "public": true
   }
 }

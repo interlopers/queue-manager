@@ -1,17 +1,18 @@
 {
-  "name": "car",
-  "base": "PersistedModel",
+  "name": "user",
+  "plural": "users",
+  "base": "Model",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "model": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "price": {
-      "type": "number",
+    "email": {
+      "type": "string",
       "required": true
     }
   },
