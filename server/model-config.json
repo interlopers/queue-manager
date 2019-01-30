@@ -49,5 +49,9 @@
   "position": {
     "dataSource": "db",
     "public": true
+  },
+  "time": {
+    "dataSource": null,
+    "public": true
   }
 }
