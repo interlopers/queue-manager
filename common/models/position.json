@@ -1,22 +1,17 @@
 {
   "name": "position",
-  "plural": "positions",
-  "base": "Model",
+  "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "current": {
+    "id": {
       "type": "number",
       "required": true
     },
-    "previous": {
-      "type": "number",
-      "required": true
-    },
-    "taken": {
-      "type": "number",
+    "status": {
+      "type": "string",
       "required": true
     }
   },

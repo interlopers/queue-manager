@@ -46,11 +46,11 @@
     "dataSource": "db",
     "public": true
   },
-  "position": {
+  "time": {
     "dataSource": "db",
     "public": true
   },
-  "time": {
+  "position": {
     "dataSource": "db",
     "public": true
   }
