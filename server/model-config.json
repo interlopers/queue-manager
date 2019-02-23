@@ -51,7 +51,7 @@
     "public": true
   },
   "time": {
-    "dataSource": null,
+    "dataSource": "db",
     "public": true
   }
 }
