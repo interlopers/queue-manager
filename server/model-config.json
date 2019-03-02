@@ -53,5 +53,9 @@
   "position": {
     "dataSource": "db",
     "public": true
+  },
+  "facility": {
+    "dataSource": "db",
+    "public": true
   }
 }
