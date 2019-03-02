@@ -38,18 +38,6 @@
   "Note": {
     "dataSource": "db"
   },
-  "car": {
-    "dataSource": "db",
-    "public": true
-  },
-  "business": {
-    "dataSource": "db",
-    "public": true
-  },
-  "time": {
-    "dataSource": "db",
-    "public": true
-  },
   "position": {
     "dataSource": "db",
     "public": true
